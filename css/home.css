@@ -1,0 +1,101 @@
+
+
+* {
+    margin: 0px;
+    padding : 0px;
+}
+
+body {
+    background-color: deepskyblue;
+}
+
+.portcard {
+    height: 550px;
+    width: 520px;
+    background-color: rgba(0,0,0,0.4);
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+
+div label {
+    font-family: cursive;
+    padding-top: 40px;
+    font-size: 18px;
+} 
+
+div img {
+    height: 160px;
+    width: 160px;
+    border-radius: 20%;
+    border: 3px solid lightblue;
+    margin-top: 20px;
+    position: relative;
+}
+
+.text-head {
+    padding-top: 65px;
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+.folioFront {
+    float: left;
+    margin-left: 20px;
+}
+
+.folioText {
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.folioText {
+    height: 145px;
+    width: 145px;
+    margin-top: 15px;
+
+    z-index: 2; 
+    transform: rotateY(0deg);
+}
+
+div label {
+    font-family: cursive;
+    padding-top: 10px;
+}
+
+.explore-btn{
+    background: #f46241;
+    position: fixed;
+    top: 250px;
+    border: none;
+    right: 200px;
+    width: 125px !important;
+    height: 42px !important;
+    text-align: center;
+    display: none;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-family: cursive
+}
+
+  
+  .explore-btn:hover {
+    background: #961910;
+    position: fixed;
+    top: 250px;
+    border: none;
+    right: 200px;
+    width: 125px !important;
+    height: 42px !important;
+    text-align: center;
+    display: none;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-family: cursive;
+}

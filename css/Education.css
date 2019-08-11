@@ -1,0 +1,75 @@
+
+.head-section {
+    background-color:#28a745;
+    width: 1366px;
+    height: 100px;
+}
+
+.back-icon {
+    background: no-repeat;
+    width: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    white-space: nowrap;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+label:nth-child(2) {
+    text-transform: uppercase;
+    padding-left: 100px;
+    font-family: cursive;
+    font-size: 14px;
+    color: saddlebrown;
+}
+label:nth-child(3) {
+    text-transform: uppercase;
+    padding-left: 100px;
+    font-family: cursive;
+    font-size: 14px;
+    color: saddlebrown;
+}
+.text {
+    color: white;
+    /* font-weight: 200; */
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 30px 40px;
+    text-transform: uppercase;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.text-heading {
+    padding-left: 30px;
+    font-family: cursive;
+}
+.card {
+    margin-left: 10px;
+    width: 66%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-clip: padding-box;
+    margin-bottom: 35px;
+}
+
+.blockquote {
+    border-left: 5px solid #795548;
+    color: #795548;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    font-family: cursive;
+}
+
+.title-text {
+    padding-left: 30px;
+    font-family: cursive;
+}
