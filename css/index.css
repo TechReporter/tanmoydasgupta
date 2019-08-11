@@ -76,7 +76,6 @@ div label {
     width: 125px !important;
     height: 42px !important;
     text-align: center;
-    display: none;
     color: #ffffff;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
@@ -93,7 +92,6 @@ div label {
     width: 125px !important;
     height: 42px !important;
     text-align: center;
-    display: none;
     color: #ffffff;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
